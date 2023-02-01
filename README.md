@@ -1,6 +1,6 @@
 # flew-index
 
-## f(lavono123's custom f)rew index
+## fl(avono123's custom kr)ew index
 
 ### Install
 
