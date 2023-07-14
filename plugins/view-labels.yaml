@@ -1,0 +1,97 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: view-labels
+spec:
+  homepage: https://github.com/flavono123/kubectl-view-labels
+  shortDescription: Fuzzy search with label keys for a resource.
+  caveats: |
+    Fuzzy search with label keys for a resource.
+
+    Usage:
+      view-labels <resource>
+
+    Available Resources:
+      node(no, nodes): Nodes
+
+    Options:
+      -h, --help:
+        Print help message
+  version: v0.0.1
+  description: |
+    Better --show_labels. Ease the pain of searching with long long label keys.
+  platforms:
+  - selector:
+      matchExpressions:
+      - key: os
+        operator: In
+        values:
+        - darwin
+      - key: arch
+        operator: In
+        values:
+        - amd64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_darwin_amd64.tar.gz
+    sha256: 3ce1d1e839d6a732b295521b52f7af369249b8f91866b08980dd1baf0690a852
+    bin: kubectl-view_labels_v0.0.1_darwin_amd64
+    files:
+    - from: kubectl-view_labels_v0.0.1_darwin_amd64
+      to: .
+    - from: LICENSE
+      to: .
+  - selector:
+      matchExpressions:
+      - key: os
+        operator: In
+        values:
+        - darwin
+      - key: arch
+        operator: In
+        values:
+        - arm64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_darwin_arm64.tar.gz
+    sha256: e15561bdb7f780eb24b0cde75682c19c79cd923eeaceb0281c46394289e35705
+    bin: kubectl-view_labels_v0.0.1_darwin_arm64
+    files:
+    - from: kubectl-view_labels_v0.0.1_darwin_arm64
+      to: .
+    - from: LICENSE
+      to: .
+  - selector:
+      matchExpressions:
+      - key: os
+        operator: In
+        values:
+        - linux
+      - key: arch
+        operator: In
+        values:
+        - amd64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_linux_amd64.tar.gz
+    sha256: 1ed065b770340f36db93508814a1fe0a4108fd92e58331fd4acadf778163a1ae
+    bin: kubectl-view_labels_v0.0.1_linux_amd64
+    files:
+    - from: kubectl-view_labels_v0.0.1_linux_amd64
+      to: .
+    - from: LICENSE
+      to: .
+  - selector:
+      matchExpressions:
+      - key: os
+        operator: In
+        values:
+        - windows
+      - key: arch
+        operator: In
+        values:
+        - amd64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_windows_amd64.zip
+    sha256: b4468f8170b45436c36d5cb255037c9d0ab8dacb6308aa0da993a87c5fcc9068
+    bin: kubectl-view_labels_v0.0.1_windows_amd64.exe
+    files:
+    - from: kubectl-view_labels_v0.0.1_windows_amd64.exe
+      to: .
+    - from: LICENSE
+      to: .
+
+
