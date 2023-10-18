@@ -17,7 +17,7 @@ spec:
     Options:
       -h, --help:
         Print help message
-  version: v0.0.1
+  version: v0.1.0
   description: |
     Better --show_labels. Ease the pain of searching with long long label keys.
   platforms:
@@ -31,11 +31,11 @@ spec:
         operator: In
         values:
         - amd64
-    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_darwin_amd64.tar.gz
-    sha256: 3ce1d1e839d6a732b295521b52f7af369249b8f91866b08980dd1baf0690a852
-    bin: kubectl-view_labels_v0.0.1_darwin_amd64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.1.0/kubectl-view_labels_v0.1.0_darwin_amd64.tar.gz
+    sha256: 4ade7c6334579fd350544fc5809995468e3c41502c627b9716420cbec57e12a3
+    bin: kubectl-view_labels_v0.1.0_darwin_amd64
     files:
-    - from: kubectl-view_labels_v0.0.1_darwin_amd64
+    - from: kubectl-view_labels_v0.1.0_darwin_amd64
       to: .
     - from: LICENSE
       to: .
@@ -49,11 +49,11 @@ spec:
         operator: In
         values:
         - arm64
-    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_darwin_arm64.tar.gz
-    sha256: e15561bdb7f780eb24b0cde75682c19c79cd923eeaceb0281c46394289e35705
-    bin: kubectl-view_labels_v0.0.1_darwin_arm64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.1.0/kubectl-view_labels_v0.1.0_darwin_arm64.tar.gz
+    sha256: 8ce3224efcd371777cf0b6331e785ff8e38c92e41cf43ccb087b0c32b84d9556
+    bin: kubectl-view_labels_v0.1.0_darwin_arm64
     files:
-    - from: kubectl-view_labels_v0.0.1_darwin_arm64
+    - from: kubectl-view_labels_v0.1.0_darwin_arm64
       to: .
     - from: LICENSE
       to: .
@@ -67,11 +67,11 @@ spec:
         operator: In
         values:
         - amd64
-    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_linux_amd64.tar.gz
-    sha256: 1ed065b770340f36db93508814a1fe0a4108fd92e58331fd4acadf778163a1ae
-    bin: kubectl-view_labels_v0.0.1_linux_amd64
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.1.0/kubectl-view_labels_v0.1.0_linux_amd64.tar.gz
+    sha256: e2a9b9a539fee711e914e39e9ed98950562a8671b0423b4b2830f459422f283a
+    bin: kubectl-view_labels_v0.1.0_linux_amd64
     files:
-    - from: kubectl-view_labels_v0.0.1_linux_amd64
+    - from: kubectl-view_labels_v0.1.0_linux_amd64
       to: .
     - from: LICENSE
       to: .
@@ -85,11 +85,11 @@ spec:
         operator: In
         values:
         - amd64
-    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.0.1/kubectl-view_labels_v0.0.1_windows_amd64.zip
-    sha256: b4468f8170b45436c36d5cb255037c9d0ab8dacb6308aa0da993a87c5fcc9068
-    bin: kubectl-view_labels_v0.0.1_windows_amd64.exe
+    uri: https://github.com/flavono123/kubectl-view-labels/releases/download/v0.1.0/kubectl-view_labels_v0.1.0_windows_amd64.zip
+    sha256: 36915f6e29e79ffaf6688515eff04572ee5f4af21df609082d516ef371401a80
+    bin: kubectl-view_labels_v0.1.0_windows_amd64.exe
     files:
-    - from: kubectl-view_labels_v0.0.1_windows_amd64.exe
+    - from: kubectl-view_labels_v0.1.0_windows_amd64.exe
       to: .
     - from: LICENSE
       to: .
