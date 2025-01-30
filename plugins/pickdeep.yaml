@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: pickdeep
 spec:
-  version: v0.0.6-alpha
+  version: v0.0.9-alpha
   platforms:
     - bin: kupid.exe
-      uri: https://github.com/flavono123/kupid/releases/download/v0.0.6-alpha/pickdeep_v0.0.6-alpha_windows_arm64.zip
-      sha256: a582685b3112d0ca92bfde6a7b5cbe9cc98289a11019165a47417e8f9b122410
+      uri: https://github.com/flavono123/kupid/releases/download/v0.0.9-alpha/pickdeep_v0.0.9-alpha_windows_arm64.zip
+      sha256: e064169772d46c5f74a8f68dacde39e93022cd734a61ada23607856fe53bc988
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kupid.exe
-      uri: https://github.com/flavono123/kupid/releases/download/v0.0.6-alpha/pickdeep_v0.0.6-alpha_windows_amd64.zip
-      sha256: 02ed832f2170e5824d5ee96ece33eb0201e28d97a5b2784a12308ce8e308c39f
+      uri: https://github.com/flavono123/kupid/releases/download/v0.0.9-alpha/pickdeep_v0.0.9-alpha_windows_amd64.zip
+      sha256: bb350550bfd6032778c1c6774d0bc9f379c875b1e13a6cacf15c1e1c242f27cf
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kupid
-      uri: https://github.com/flavono123/kupid/releases/download/v0.0.6-alpha/pickdeep_v0.0.6-alpha_linux_arm64.tar.gz
-      sha256: 2b16f1ed4f2ad4eccd4bfc22e9a58b384fea53d36555ccaa3c72ac0615d4a3bf
+      uri: https://github.com/flavono123/kupid/releases/download/v0.0.9-alpha/pickdeep_v0.0.9-alpha_linux_arm64.tar.gz
+      sha256: f0d6f4a169debf494c1021fdacbc04914b621284df772693d75997521d36adfd
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kupid
-      uri: https://github.com/flavono123/kupid/releases/download/v0.0.6-alpha/pickdeep_v0.0.6-alpha_linux_amd64.tar.gz
-      sha256: 996da4a6ee321ffd9c02441527e6c569c430e4138e1f8ee2eab477be1bcfe15c
+      uri: https://github.com/flavono123/kupid/releases/download/v0.0.9-alpha/pickdeep_v0.0.9-alpha_linux_amd64.tar.gz
+      sha256: de0bf4989215559a0e6d1e8caf1ad84fa7d4fc70982324ef8e09f97a1f7fa865
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kupid
-      uri: https://github.com/flavono123/kupid/releases/download/v0.0.6-alpha/pickdeep_v0.0.6-alpha_darwin_arm64.tar.gz
-      sha256: bfd0efee89669eea2d6b575a7a51bd9b2678ed68e2724d050ea3399ab4b488b1
+      uri: https://github.com/flavono123/kupid/releases/download/v0.0.9-alpha/pickdeep_v0.0.9-alpha_darwin_arm64.tar.gz
+      sha256: 93bc5c36fae842d854448963774071ac46ed9e48cfa4e86d90d967fc43bea0e7
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kupid
-      uri: https://github.com/flavono123/kupid/releases/download/v0.0.6-alpha/pickdeep_v0.0.6-alpha_darwin_amd64.tar.gz
-      sha256: 6d394b909c7fcfde22dad2a5dfa6593be24aa6e350eb3dce7041269714fd988e
+      uri: https://github.com/flavono123/kupid/releases/download/v0.0.9-alpha/pickdeep_v0.0.9-alpha_darwin_amd64.tar.gz
+      sha256: 0d859786a03905af64b6fff93b4940329b0bf8c7ad658fbd5bd682b58e9b7f1e
       selector:
         matchLabels:
           os: darwin
